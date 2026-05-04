@@ -1,8 +1,8 @@
 cask "cascade" do
-  version "0.1.0"
-  sha256 "fc4b95c22c9523cc9915e2e424e8f60e235a27ee5b02eee8386e5865ba7abcc0"
+  version "0.2.0"
+  sha256 "336fcc9213c88b93e659a1d375198d53bea33a21554bbb82574e9204d34191e8"
 
-  url "https://github.com/zacharyfmarion/cascade/releases/download/v#{version}/Cascade_#{version}_aarch64.dmg",
+  url "https://github.com/zacharyfmarion/cascade/releases/download/v\#{version}/Cascade_\#{version}_aarch64.dmg",
       verified: "github.com/zacharyfmarion/"
 
   name "Cascade"
